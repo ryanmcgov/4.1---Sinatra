@@ -4,11 +4,11 @@ get '/' do
   erb :index, locals: {title: "Home"}
 end
 
-get '/blog_post1' do
+get '/post1' do
   erb :post_1, locals: {title: "Post 1"}
 end
 
-get '/blog_post2' do
+get '/post2' do
   erb :post_2, locals: {title: "Post 2"}
 end
 
